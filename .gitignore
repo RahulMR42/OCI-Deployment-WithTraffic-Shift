@@ -40,3 +40,4 @@ Temporary Items
 #Local stuff 
 terraform.tfvars
 _rahul*
+plan.out

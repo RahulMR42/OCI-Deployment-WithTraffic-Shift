@@ -101,3 +101,21 @@ variable "deploy_pipeline_deploy_pipeline_parameters_items_description" {
 variable "deploy_pipeline_deploy_pipeline_parameters_items_name" {
   default = "name"
 }
+
+variable load_balancer_shape {
+  default = "Flexible"
+}
+variable load_balancer_ip_mode {
+  default="ipv4"
+}
+variable load_balancer_is_private {
+  default = "false"
+}
+
+variable load_balancer_shape_details_maximum_bandwidth_in_mbps{
+  default = 10240
+}
+
+variable load_balancer_shape_details_minimum_bandwidth_in_mbps {
+  default = 10240 
+}
